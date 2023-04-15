@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Formularz</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+<div class="homebutton"><a href="https://karol.z28.web.core.windows.net"> Strona główna </a></div>
+
+<h1>Formularz</h1>
+
+<div class="form">
+<form action="">
+  <label for="imie">Imię:</label><br>
+  <input type="text" id="imie" name="imie" pattern="[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]{1,32}"placeholder="imię"><br><br>
+  
+  <label for="nazwisko">Nazwisko:</label><br>
+  <input type="text" id="nazwisko" name="nazwisko" pattern="[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ-]{1,64}" placeholder="nazwisko"><br><br>
+  
+  <label for="pesel">PESEL:</label><br>
+  <input type="text" id="pesel" name="pesel" pattern="[0-9]{11,11}"placeholder="12345678910"><br><br>
+  
+  <label for="urodziny">Data urodzenia:</label>
+  <input type="date" id="urodziny" name="urodziny"><br><br>
+  
+  <label for="miasto">Miasto:</label><br>
+  <input type="text" id="miasto" name="miasto" pattern="[A-Za-z -ĄĘŹŻŚÓĆŃŁąęźżśóćńł]{1,64}"placeholder="miasto"><br><br>
+  
+  <label for="kod">Kod pocztowy:</label><br>
+  <input type="kod" id="kod" name="kod" placeholder="00-000" pattern="[0-9]{2}[-][0-9]{3}"><br><br>
+  
+  <label for="ulica">Ulica:</label><br>
+  <input type="text" id="ulica" name="ulica" pattern="[0-9A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ- ]{1,64}"placeholder="ulica"><br><br>
+  
+  <label for="numer">Numer budynku:</label><br>
+  <input type="number" id="numer" name="numer" min="1" max="999"placeholder="0"><br><br>
+  
+  <label for="prawko">Prawo jazdy:</label>
+  <input type="checkbox" id="prawko" name="prawko"><br><br>
+  
+  <label for="płeć">Płeć:</label><br>
+  <input type="radio" id="K" name="płeć" value="Kobieta">
+  <label for="K">Kobieta</label><br>
+  <input type="radio" id="M" name="płeć" value="Mężczyzna">
+  <label for="M">Mężczyzna</label><br>
+  <input type="radio" id="I" name="płeć" value="Inna">
+  <label for="I">Inna</label><br><br>
+    
+  <label for="telefon">Numer telefonu:</label><br>
+  <input type="tel" id="telefon" name="telefon" placeholder="123456789" pattern="[0-9]{9}"><br><br>
+  
+  <label for="uwagi">Uwagi:</label><br>
+  <textarea rows="4" cols="50" id="uwagi" name="uwagi" placeholder="Tekst..."></textarea><br>
+  
+  <input type="submit" value="Wyślij">
+  <input type="reset">
+</form>
+</div>
+
+</body>
+</html>

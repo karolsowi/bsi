@@ -1,0 +1,81 @@
+body {
+    font-size: 2.5vh;   
+    top: 15%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: #202121;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    border: 2px solid Grey;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    text-align:right;
+    font-size: 3vh;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid Grey;
+    color: white;
+    background-color: #202121;
+}
+
+#last_operation_history {
+    height: 2vh;
+    font-size: 2vh;
+    text-align:right;
+    padding-right: 2vh;
+	color: white;
+    background-color: #202121;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight:bold;
+    font-size: 3vh;
+    color: white;
+    background-color: Gray;
+}
+
+#backspace_btn {
+    background-image: url("back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 2em;
+}
+
+button:hover {
+    background-color: DarkOrchid;
+}
+
+.operator {
+    background-color: HotPink;
+}
+
+.operator:hover {
+    background-color: DarkOrchid;
+}
+
+a:link, a:visited {
+	color: HotPink;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
