@@ -1,43 +1,16 @@
 name: Tests Failure Report
-description: Commit nie przeszedł testów
+description: Funkcja nie przeszła testów
 body:
-  - type: checkboxes
-    id: checks
-    attributes:
-      label: "Uwaga"
-      options:
-        - label: "Sprawdziłem czy nie przeprowadzono już tych samych testów."
-          required: true
   - type: textarea
     id: what-happened
     attributes:
       label: Co poszło nie tak?
       description: Jaka funkcjonalność nie przeszła jakiego testu? 
-      placeholder: "placeholder"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: Jaka to wersja gry - testujesz wersję alpha czy po najnowszym commitcie.
-      options:      
-        - 0.1.0-alpha
-        - Najnowsza
+      placeholder: "Podczas wywołania funkcji "Mnożenie" z argumentami '2,3' funkcja zwraca '5'."
     validations:
       required: true
   - type: input
-    id: otherversion
+    id: branch
     attributes:
-      label: "-"
-      description: Jeśli wybrałeś "Najnowsza" - podaj link do ostatniego commita z tej wersji.
-  - type: dropdown
-    id: operating-systems
-    attributes:
-      label: System operacyjny
-      options:
-        - Windows
-        - MacOS
-        - Linux
-    validations:
-      required: true
+      label: "Branch"
+      description: Podaj nazwę brancha, na którym zostały zrobione testy jednostkowe do testowanej funkcji.
