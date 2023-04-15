@@ -12,5 +12,5 @@ body:
   - type: input
     id: branch
     attributes:
-      label: "Branch"
+      label: Branch
       description: Podaj nazwę brancha, na którym zostały zrobione testy jednostkowe do testowanej funkcji.
