@@ -6,7 +6,7 @@ body:
     attributes:
       label: "Co poszło nie tak?"
       description: Jaka funkcjonalność nie przeszła jakiego testu? 
-      placeholder: "Podczas wywołania funkcji "Mnożenie" z argumentami '2,3' funkcja zwraca '5'."
+      placeholder: "Podczas wywołania funkcji Mnożenie z argumentami 2,3 funkcja zwraca 5."
     validations:
       required: true
   - type: input
