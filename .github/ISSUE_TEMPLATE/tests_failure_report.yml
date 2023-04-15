@@ -1,5 +1,5 @@
 name: Tests Failure Report
-description: 
+description: Commit nie przeszedł testów
 body:
   - type: checkboxes
     id: checks
@@ -30,7 +30,7 @@ body:
     id: otherversion
     attributes:
       label: "-"
-      description: Jeśli wybrałeś "Inna" - podaj link do ostatniego commita z tej wersji.
+      description: Jeśli wybrałeś "Najnowsza" - podaj link do ostatniego commita z tej wersji.
   - type: dropdown
     id: operating-systems
     attributes:
