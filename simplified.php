@@ -14,7 +14,7 @@ class Process {
 		// powrot do logowania
 		header("Location: login.php");
 	}
-};
+
 }
 class Check {
 	// szukanie errorow w logowaniu
