@@ -22,7 +22,7 @@ input[type=text], input[type=password] {
 </head>
 <body>
 
-<div class="homebutton"><a href="https://karol.z28.web.core.windows.net"> Strona główna </a></div>
+<div class="homebutton"><a href="https://karolsow.azurewebsites.net"> Strona główna </a></div>
 
 <h1>Logowanie</h1>
 
