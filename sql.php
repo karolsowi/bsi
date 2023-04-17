@@ -2,18 +2,18 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
-	<title>Formularz</title>
+	<title>SQL</title>
     <link rel="stylesheet" href="mystyle.css" type="text/css"/>
 </head>
 
 
 <body>
+<div class="homebutton"><a href="https://karolsow.azurewebsites.net"> Strona główna </a></div>
         <?php
             $servername = "karolsow-server";
             $username = "sgnvozwkyq";
             $password = "2MW0U33CQ863225I$";
             $dbname = "karolsow-database";
-
 
             $conn = new mysqli($servername, $username, $password, $dbname);
 
