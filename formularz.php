@@ -82,11 +82,13 @@ else{
   </form>
 
 </div>
+
 <div>
-<h2 href="https://karolsow.azurewebsites.net/txt/index_logowanie.txt"> index_logowanie.txt</h2>
-<h2 href="https://karolsow.azurewebsites.net/txt/logowanie.txt"> logowanie.txt</h2>
-<h2 href="https://karolsow.azurewebsites.net/txt/logout.txt"> logout.php</h2>
-<h2 href="https://karolsow.azurewebsites.net/txt/formularz.txt"> formularz.txt</h2>
+<a href="https://karolsow.azurewebsites.net/txt/index_logowanie.txt"> index_logowanie.txt</a>
+<a href="https://karolsow.azurewebsites.net/txt/logowanie.txt"> logowanie.txt</a>
+<a href="https://karolsow.azurewebsites.net/txt/logout.txt"> logout.php</a>
+<a href="https://karolsow.azurewebsites.net/txt/formularz.txt"> formularz.txt</a>
+
 </div>
 
 </body>
